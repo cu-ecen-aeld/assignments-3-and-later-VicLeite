@@ -14,7 +14,7 @@ BUSYBOX_VERSION=1_33_1
 FINDER_APP_DIR=$(realpath $(dirname $0))
 ARCH=arm64
 CROSS_COMPILE=aarch64-none-linux-gnu-
-PATH_TOOLCHAIN_LIB=/home/victoria_leite/arm-gnu-toolchain-14.2.rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/libc/
+PATH_TOOLCHAIN_LIB=/home/victoria_leite/arm-gnu-toolchain-14.2.rel1-x86_64-aarch64-none-linux-gnu/aarch64-none-linux-gnu/libc
 OUTDIR=/tmp/aeld
 
 if [ $# -lt 1 ]
